@@ -1,0 +1,32 @@
+http {
+    # Define a shared memory zone for rate limiting with the user's IP as the key
+    limit_req_zone $binary_remote_addr zone=ip_limit:10m rate=3r/s;
+
+    # Other HTTP configurations...
+
+    server {
+        listen 80;
+        server_name your_domain.com Or IP Address;
+
+        location / {
+            # Apply the rate limit of 3 requests per second per IP address
+            limit_req zone=ip_limit burst=3 nodelay;
+
+            # Other directives like proxy_pass, root, etc.
+            proxy_pass http://backend_server;
+
+            # Error handling (optional)
+            error_page 429 = @rate_limited;
+
+        }
+
+        # Define an optional error page for rate-limited requests
+        location @rate_limited {
+            return 429 "Too Many Requests. Please slow down.";
+        }
+
+        # Other server blocks and locations...
+    }
+
+    # Other configurations...
+}
