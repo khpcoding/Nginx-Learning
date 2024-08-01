@@ -4,16 +4,14 @@ Welcome to the `nginx-learning` repository! This repository is designed to help 
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
+- [ReverseProxy](#ReverseProxy)
+- [LoadBalancing](#LoadBalancing)
+- [RateLimit](#RateLimit)
 - [Basic Configuration](#basic-configuration)
-- [Load Balancing](#load-balancing)
 - [Caching](#caching)
-- [Advanced Configuration](#advanced-configuration)
+- [Production-Scenario](#Production-Scenario)
 - [Resources](#resources)
-- [Contributing](#contributing)
-- [License](#license)
+- [Security](#Security)
 
 ## Introduction
 
