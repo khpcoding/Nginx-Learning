@@ -15,7 +15,7 @@ Welcome to the `nginx-learning` repository! This repository is designed to help 
 
 ## Introduction
 
-Nginx (pronounced "engine-x") is a high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server. It is known for its stability, rich feature set, simple configuration, and low resource consumption.
+Nginx is a high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server. It is known for its stability, rich feature set, simple configuration, and low resource consumption.
 
 This repository provides example configurations and explanations to help you understand and implement Nginx in your projects.
 
