@@ -1,5 +1,7 @@
 # nginx-learning
 
+![NGINX](https://img.shields.io/badge/NGINX-Server-blue?style=flat&logo=nginx)
+
 Welcome to the `nginx-learning` repository! This repository is designed to help you get started with Nginx, understand its configurations, and set up a robust and performant web server.
 
 ## Table of Contents
