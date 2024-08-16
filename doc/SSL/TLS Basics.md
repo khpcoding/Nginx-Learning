@@ -1,4 +1,4 @@
-Introduction
+# Introduction
 
 TLS stands for Transport Layer Security. It is a protocol that provides privacy and data integrity between two communicating applications. It’s the most widely deployed security protocol used today replacing Secure Socket Layer (SSL), and is used for web browsers and other applications that require data to be securely exchanged over a network.
 
@@ -17,7 +17,8 @@ TLS versions
 | TLS 1.3  | RFC 8446 [IETF]      | 2018      | Still secure                       |
 
 
-what is TLS handshake ? 
+# what is TLS handshake ? 
+
 The TLS handshake is a crucial process that establishes a secure communication channel between a client (such as a web browser) and a server (such as a web server). This process ensures that the data exchanged between the two parties is encrypted and secure from eavesdropping or tampering.
 
 
