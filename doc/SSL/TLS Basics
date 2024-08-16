@@ -6,10 +6,8 @@ TLS ensures that a connection to a remote endpoint is the intended endpoint thro
 TLS versions
 
 PROTOCOL	RFC	PUBLISHED	STATUS
-SSL 1.0		Unpublished	Unpublished
-SSL 2.0		1995	Depracated in 2011 (RFC 6176) [IETF]
-SSL 3.0		1996	Depracated in 2015 (RFC 7568) [IETF]
-TLS 1.0	RFC 2246 [IETF]	1999	Deprecation in 2020
-TLS 1.1	RFC 4346 [IETF]	2006	Deprecation in 2020
-TLS 1.2	RFC 5246 [IETF]	2008	Still secure
-TLS 1.3	RFC 8446 [IETF]	2018	Still secure
+| PROTOCOL  | RFC  | PUBLISHED  |
+|----------|----------|----------|
+| Row 1    | Data 1   | Data 2   |
+| Row 2    | Data 3   | Data 4   |
+
