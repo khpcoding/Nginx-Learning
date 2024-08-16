@@ -38,7 +38,7 @@ Steps in the TLS Handshake :
 
 
 
-RSA and ECC keys/certificates
+![Invertocat Pin](RSA and ECC keys/certificates)
 
 
 
