@@ -1,4 +1,4 @@
-##Introduction
+Introduction
 
 TLS stands for Transport Layer Security. It is a protocol that provides privacy and data integrity between two communicating applications. It’s the most widely deployed security protocol used today replacing Secure Socket Layer (SSL), and is used for web browsers and other applications that require data to be securely exchanged over a network.
 
