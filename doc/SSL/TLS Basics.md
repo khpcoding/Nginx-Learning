@@ -44,7 +44,9 @@ Steps in the TLS Handshake :
 Here are some details:
 
 - **Key Pair**: RSA generates a public and private key pair. The public key is shared openly, while the private key is kept secret.
+  
 - **Encryption and Decryption**: Data encrypted with the public key can only be decrypted with the corresponding private key. This ensures that only the intended recipient can access the information.
+  
 - **Digital Signatures**: RSA is also used to create digital signatures, which verify the authenticity and integrity of a message or document.
 
 </details>
