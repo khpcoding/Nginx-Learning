@@ -30,7 +30,9 @@ Steps in the TLS Handshake :
 7. `Finished Messages` : The client sends a "finished" message encrypted with the session key, indicating that its part of the handshake is complete. The server responds with its own encrypted "finished" message, completing the handshake.
 8. `Secure Communication` : Once the handshake is complete, the client and server can securely exchange data using the established session key, ensuring confidentiality and integrity of the communication.
 
-![Alt text](https://aboutssl.org/wp-content/uploads/2020/03/ssl-handshake-10-steps.svg)
+   
+
+   ![Alt text](https://aboutssl.org/wp-content/uploads/2020/03/ssl-handshake-10-steps.svg)
 
 
 
