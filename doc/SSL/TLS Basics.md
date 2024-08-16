@@ -31,3 +31,6 @@ Steps in the TLS Handshake :
 8. `Secure Communication` : Once the handshake is complete, the client and server can securely exchange data using the established session key, ensuring confidentiality and integrity of the communication.
 
 
+
+
+
