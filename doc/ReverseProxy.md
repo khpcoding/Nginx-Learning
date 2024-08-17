@@ -35,10 +35,10 @@ Acts as an additional security layer by hiding the backend server's IP address a
 ### 4. Caching:
 
 Stores copies of frequently requested resources, reducing the load on backend servers and speeding up response times for clients.
-## 4.URL Rewriting:
+### 5. URL Rewriting:
 
 Modifies client requests before they are sent to the backend servers, enabling you to change URLs or paths without altering the backend application.
-### 5. Application Isolation:
+### 6. Application Isolation:
 
 Allows multiple applications to run on different backend servers or ports while being accessible through a single domain or IP address.
   ![nginx-lb](https://github.com/user-attachments/assets/b9a576da-4f46-424d-a9b5-103fa048a600)
