@@ -6,6 +6,7 @@ This repository provides a simple guide to setting up a reverse proxy using NGIN
 
 - [What is a Reverse Proxy?](#what-is-a-reverse-proxy)
 - [Why Use NGINX for Reverse Proxy?](#why-use-nginx-for-reverse-proxy)
+- [Why Use a Reverse Proxy?](#Why-Use-a-Reverse-Proxy?)
 - [Installation](#installation)
 - [Configuration](#configuration)
   - [Basic Reverse Proxy Setup](#basic-reverse-proxy-setup)
