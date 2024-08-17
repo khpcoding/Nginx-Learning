@@ -41,6 +41,7 @@ Modifies client requests before they are sent to the backend servers, enabling y
 ### 6. Application Isolation:
 
 Allows multiple applications to run on different backend servers or ports while being accessible through a single domain or IP address.
+
   ![nginx-lb](https://github.com/user-attachments/assets/b9a576da-4f46-424d-a9b5-103fa048a600)
 
 
