@@ -72,4 +72,39 @@ server {
     }
 }
 ```
+This configuration redirects all HTTP requests to HTTPS and then proxies them to the backend server.
+
+## Load Balancing
+NGINX can also be used to load balance traffic across multiple backend servers:
+
+``` bash
+http {
+    upstream backend {
+        server backend1.example.com;
+        server backend2.example.com;
+    }
+
+    server {
+        listen 80;
+        server_name example.com;
+
+        location / {
+            proxy_pass http://backend;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+        }
+    }
+}
+```
+This configuration will distribute requests to backend1.example.com and backend2.example.com.
+
+## Testing
+To test your reverse proxy setup, restart NGINX and use tools like curl or a web browser to access your domain. Ensure that requests are correctly proxied to the backend server(s).
+
+``` bash
+sudo systemctl restart nginx
+curl -I http://example.com
+```
 
