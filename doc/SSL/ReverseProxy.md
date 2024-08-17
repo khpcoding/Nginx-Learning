@@ -6,7 +6,6 @@ This repository provides a simple guide to setting up a reverse proxy using NGIN
 
 - [What is a Reverse Proxy?](#what-is-a-reverse-proxy)
 - [Why Use NGINX for Reverse Proxy?](#why-use-nginx-for-reverse-proxy)
-- [Why Use a Reverse Proxy?](#Why-Use-a-Reverse-Proxy?)
 - [Installation](#installation)
 - [Configuration](#configuration)
   - [Basic Reverse Proxy Setup](#basic-reverse-proxy-setup)
@@ -22,6 +21,9 @@ A reverse proxy is a type of proxy server that retrieves resources on behalf of 
 ## Why Use NGINX for Reverse Proxy?
 
 NGINX is widely used for its high performance, stability, rich feature set, simple configuration, and low resource consumption. It is capable of handling a large number of simultaneous connections, which makes it ideal for use as a reverse proxy.
+
+![nginx-lb](https://github.com/user-attachments/assets/b9a576da-4f46-424d-a9b5-103fa048a600)
+
 
 ## Example 
 Here is an example configuration:
