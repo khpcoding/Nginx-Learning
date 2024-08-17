@@ -23,7 +23,7 @@ A reverse proxy is a type of proxy server that retrieves resources on behalf of 
 NGINX is widely used for its high performance, stability, rich feature set, simple configuration, and low resource consumption. It is capable of handling a large number of simultaneous connections, which makes it ideal for use as a reverse proxy.
 and here is somthing else that we use reverse proxy as a nginx : 
 
-## 1.Load Balancing:
+### 1.Load Balancing:
 
 Distributes incoming traffic across multiple backend servers to ensure no single server is overwhelmed. This improves performance and reliability.
 ## 2.SSL Termination:
