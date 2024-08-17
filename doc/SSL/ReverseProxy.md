@@ -42,3 +42,34 @@ server {
     }
 }
 ```
+
+This configuration forwards requests from example.com to a server running on localhost:8080.
+
+## SSL Termination
+
+To secure your reverse proxy with SSL, you need to configure NGINX to handle SSL termination. This involves obtaining an SSL certificate and configuring NGINX to use it.
+
+```bash
+server {
+    listen 80;
+    server_name example.com;
+    return 301 https://$host$request_uri;
+}
+
+server {
+    listen 443 ssl;
+    server_name example.com;
+
+    ssl_certificate /etc/nginx/ssl/nginx.crt;
+    ssl_certificate_key /etc/nginx/ssl/nginx.key;
+
+    location / {
+        proxy_pass http://localhost:8080;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
