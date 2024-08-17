@@ -13,8 +13,6 @@ This repository provides a simple guide to setting up a reverse proxy using NGIN
   - [Load Balancing](#load-balancing)
 - [Testing](#testing)
 - [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## What is a Reverse Proxy?
 
